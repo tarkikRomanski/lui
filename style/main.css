@@ -1,0 +1,42 @@
+h1 {
+    margin-butoom: 2px;
+}
+
+h2 {
+    margin-top: 2px;
+}
+
+#field {
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    font-size: 26px;
+    text-align: right;
+}
+
+#calculator {
+    width: 250px;
+    height: auto;
+    background: rgba(81, 173, 120, 0.55);
+}
+
+#calculator div {
+    width: 40px;
+    margin: 10px;
+    border: 1px solid silver;
+    background-color: rgba(59, 255, 242, 1);
+    color: #0000ff;
+    font: 16px;
+    box-shadow: 2px 1px rgba(0, 0, 0, 0.5);
+    position: relative;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+#calculator div:hover {
+    box-shadow: 0 0;
+    padding-left: 2px;
+    margin-right: 8px;
+}
